@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "人生票夹",
+    "slug": "lifeticket",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/icon-1024.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/icons/icon-1024.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FAF9F6"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lifeticket.app",
+      "buildNumber": "1",
+      "icon": "./assets/icons/icon-1024.png",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow LifeTicket to access your camera to take photos for your movie tickets.",
+        "NSPhotoLibraryUsageDescription": "Allow LifeTicket to access your photos to add personal images to your movie tickets.",
+        "NSPhotoLibraryAddUsageDescription": "Allow LifeTicket to save photos to your photo library.",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/icon-1024.png",
+        "backgroundColor": "#FAF9F6"
+      },
+      "package": "com.lifeticket.app",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_MEDIA_IMAGES"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow LifeTicket to access your photos to add personal images to your movie tickets."
+        }
+      ]
+    ]
+  }
+}
