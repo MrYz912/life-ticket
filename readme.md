@@ -43,10 +43,11 @@
 
 本项目的功能演示如下，涵盖了从电影搜索、信息录入到纪念票生成的完整流程：
 
-<div align="center">
-  <video src="assets/introduce/demonstration.mp4" controls="controls" width="80%">
-  </video>
-</div>
+
+
+https://github.com/user-attachments/assets/6ff9d289-e586-4344-91bc-84b65bbf43ed
+
+
 ------
 
 ## 📈 项目意义
