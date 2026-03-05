@@ -41,8 +41,12 @@
 
 ## 📱 效果演示
 
-[![点击播放演示视频](https://github.com/MrYz912/life-ticket/tree/master/assets/introduce/home.png)](https://github.com/MrYz912/life-ticket/tree/master/assets/introduce/demonstration.mp4)
+本项目的功能演示如下，涵盖了从电影搜索、信息录入到纪念票生成的完整流程：
 
+<div align="center">
+  <video src="assets/introduce/demonstration.mp4" controls="controls" width="80%">
+  </video>
+</div>
 ------
 
 ## 📈 项目意义
